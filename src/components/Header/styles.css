@@ -1,0 +1,51 @@
+.header {
+  margin-right: 8px;
+  position: relative;
+  left: 0;
+  top: 15px;
+  float: left;
+  width: 72px;
+  z-index: 100;
+  text-align: center;
+  opacity: 1;
+  visibility: visible;
+}
+
+.header-language-menu {
+  background-color: #292929;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.header-language-menu:last-of-type {
+  margin-top: 20px;
+}
+
+.header-language-menu-item {
+  padding: 12px 18px;
+  color: #FFFFFF;
+  font-size: 13px;
+  transition: all .3s;
+}
+
+.header-language-menu-item:hover {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.header-language-menu-item > svg {
+  margin: 6px 6px;
+}
+
+.header-language-menu-item.active-item {
+  color: #75ABFD; 
+}
+
+.header-language-menu-item:not(:last-child) {
+  border-width: 1px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to right, #000000 0%, #222222 30%
+    ) 0 0 100% 0;
+}
