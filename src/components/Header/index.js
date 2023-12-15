@@ -8,11 +8,10 @@ import { useTranslation } from 'react-i18next'
 
 function Header() {
   const { i18n, t } = useTranslation();
+  const onLanguageClick = languageCode => i18n.changeLanguage(languageCode);
 
-  const onLanguageClick = languageCode => i18n.changeLanguage(languageCode)
-  console.log(i18n.language)
   return (
-    <div className="header">
+    <header className="header">
         <div className="header-language-menu">
           <div className={i18n.language === 'pt' ? "header-language-menu-item active-item" : "header-language-menu-item"} onClick={() => onLanguageClick('pt')}>
             {t('portuguese')}
@@ -21,7 +20,6 @@ function Header() {
             {t('english')}
           </div>
         </div>
-
         <div className="header-language-menu">
           <div className="header-language-menu-item">
             <Linkedin/>
@@ -36,7 +34,7 @@ function Header() {
             <Email/>
           </div>
         </div>
-    </div>
+    </header>
   )
 }
 

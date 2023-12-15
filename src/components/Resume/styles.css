@@ -1,0 +1,42 @@
+.card-resume {
+	background-color: #282828;
+	width: 650px;
+	color: white;
+	position: relative;
+	border-radius: 0 15px 15px 0;
+}
+
+.card-resume-title {
+  font-size: 27px;
+	font-family: 'Inconsolata';
+	font-weight: 600;
+	padding: 16px;
+	border-width: 1px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to right, #000000 0%, #222222 30%
+    ) 0 0 100% 0;
+}
+
+.card-resume-about {
+	padding: 16px;
+}
+
+.card-resume-description {
+	font-family: 'Inconsolata';
+	line-height: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: #A6A6A6;
+}
+
+.card-resume-attributes {
+	padding: 0 16px;
+}
+
+.card-resume-stack {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 35px 0;
+}

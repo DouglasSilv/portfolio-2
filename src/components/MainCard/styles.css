@@ -1,0 +1,27 @@
+.main-card {
+    background-color: #222222;
+    width: 400px;
+    display: inline-block;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.main-card-name {
+    color: #FFFFFF;
+    font-family: "Libre Franklin";
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.main-card-description {
+    text-align: center;
+    color: #75ABFD;
+    font-family: monospace;
+    font-size: 13px;
+}
+
+.main-card-image {
+    margin-top: 15px;
+}

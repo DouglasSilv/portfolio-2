@@ -1,6 +1,10 @@
 import React from 'react'
-import '../styles/styles.css'
+import "@fontsource/libre-franklin";
+import "@fontsource/inconsolata";
+import "@fontsource/inconsolata/600.css";
+import "@fontsource/inconsolata/400.css";
 import Home from '../pages/Home'
+import '../styles/styles.css'
 
 function App() {
   return (

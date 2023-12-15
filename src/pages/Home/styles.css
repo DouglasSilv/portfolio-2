@@ -1,3 +1,10 @@
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .canvas {
   position: fixed;
   overflow: hidden;
@@ -10,7 +17,7 @@
 .canvas.canvas-cyberlines {
   display: flex;
     justify-content: center;
-    background: #222;
+    background: #161616;
 }
 
 .canvas-cyberlines svg {
