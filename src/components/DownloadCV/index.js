@@ -8,7 +8,7 @@ function DownloadCV() {
   const { t } = useTranslation();
 
   return (
-    <a className="download-button-container" href={CV} download="CV" target='_blank'>
+    <a className="download-button-container" href={CV} download="CV" target='_blank' rel="noopener noreferrer">
       <div className="download-button-text">
       {t('downloadCV')}
       </div>

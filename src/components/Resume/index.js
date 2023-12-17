@@ -14,8 +14,8 @@ function Resume() {
           {t('aboutMeDescription')} 
         </div>
         <div className="card-resume-attributes">
-          <div className="card-resume-description"><a className="white">{t('residence')}....</a> Brazil</div>
-          <div className="card-resume-description"><a className="white">{t('age')}....</a> 24</div>
+          <div className="card-resume-description">{t('residence')}.... Brazil</div>
+          <div className="card-resume-description">{t('age')} 24</div>
         </div>
         <div className="card-resume-title">{t('mainStack')}</div>
         <div className="card-resume-stack">
