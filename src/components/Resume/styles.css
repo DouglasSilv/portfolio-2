@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1280px) {
+	.card-resume {
+			display: none;
+	}
+}
+
 .card-resume {
 	background-color: #282828;
 	width: 650px;

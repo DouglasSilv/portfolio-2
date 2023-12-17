@@ -1,6 +1,17 @@
 .download-button-container {
   display: flex;
-  background-color: blue;
-  width: 100px;
+  background-color: #222222;
+  margin-top: 490px;
+  margin-left: -80px;
   position: relative;
+  padding: 15px 25px;
+  align-items: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.download-button-text {
+  color: #FFFFFF;
+  font-family: 'Inconsolata';
+  padding-right: 20px;
 }

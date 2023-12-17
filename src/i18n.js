@@ -14,10 +14,11 @@ i18n.use(initReactI18next).init({
           english: 'English',
           developer: 'Backend Developer',
           aboutMe: 'About me',
-          aboutMeDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar, augue vitae sollicitudin feugiat, tortor augue convallis ante, vel laoreet risus justo et quam. Donec ut lacus at nisi pulvinar pharetra pharetra vel nibh. Nunc euismod purus a tellus blandit, vitae rutrum dui viverra. Donec lobortis imperdiet',
+          aboutMeDescription: 'Backend developer with over 5 years of experience in designing and implementing comprehensive solutions for servers. Solid skills in programming languages such as Java, along with frameworks like SpringBoot. Great ability to collaborate effectively in a team, resulting in the delivery of high-quality projects. Commitment to technical excellence and efficient problem resolution has been a constant differentiator throughout my career.',
           residence: 'Residence',
           age: 'Age',
-          mainStack: 'Main stack'
+          mainStack: 'Main stack',
+          downloadCV: 'Download CV'
       }
     },
     pt: {
@@ -26,10 +27,11 @@ i18n.use(initReactI18next).init({
           english: 'English',
           developer: 'Desenvolvedor Backend',
           aboutMe: 'Sobre mim',
-          aboutMeDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar, augue vitae sollicitudin feugiat, tortor augue convallis ante, vel laoreet risus justo et quam. Donec ut lacus at nisi pulvinar pharetra pharetra vel nibh. Nunc euismod purus a tellus blandit, vitae rutrum dui viverra. Donec lobortis imperdiet',
+          aboutMeDescription: 'Desenvolvedor backend com mais de 5 anos de experiência na concepção e implementação de soluções abrangentes para servidores. Habilidades sólidas em linguagens de programação como Java, além de frameworks como SpringBoot. Grande capacidade de colaborar efetivamente em equipe, resultando na entrega de projetos de alta qualidade. Compromisso com a excelência técnica e a resolução eficiente de problemas tem sido um diferencial constante ao longo da carreira.',
           residence: 'Residência',
           age: 'Idade',
-          mainStack: 'Stack principal'
+          mainStack: 'Stack principal',
+          downloadCV: 'Baixar CV'
         }
     },
     },

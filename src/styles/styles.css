@@ -1135,10 +1135,6 @@ video {
   border-color: currentColor;
 }
 
-.white {
-  color: #FFFFFF
-}
-
 .divide-black > :not(template) ~ :not(template) {
   --divide-opacity: 1;
   border-color: #000;

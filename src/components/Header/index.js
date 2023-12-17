@@ -10,6 +10,8 @@ function Header() {
   const { i18n, t } = useTranslation();
   const onLanguageClick = languageCode => i18n.changeLanguage(languageCode);
 
+  const openURL = url => window.open(url, "_blank");
+
   return (
     <header className="header">
         <div className="header-language-menu">
@@ -21,16 +23,16 @@ function Header() {
           </div>
         </div>
         <div className="header-language-menu">
-          <div className="header-language-menu-item">
+          <div className="header-language-menu-item" onClick={() => openURL("https://www.linkedin.com/in/douglas-s-3ab933121/")}>
             <Linkedin/>
           </div>
-          <div className="header-language-menu-item">
+          <div className="header-language-menu-item" onClick={() => openURL("https://www.instagram.com/o_douglas_silva")}>
             <Instagram/>
           </div>
-          <div className="header-language-menu-item">
+          <div className="header-language-menu-item" onClick={() => openURL("https://github.com/DouglasSilv")}>
             <GitHub/>
           </div>
-          <div className="header-language-menu-item">
+          <div className="header-language-menu-item" onClick={() => openURL("mailto:silvadouglasyt@gmail.com")}>
             <Email/>
           </div>
         </div>
