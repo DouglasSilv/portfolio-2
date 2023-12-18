@@ -27,11 +27,12 @@
   color: #FFFFFF;
   font-size: 13px;
   transition: all .3s;
+  width: 100px;
 }
+
 
 .header-language-menu-item:hover {
   cursor: pointer;
-  font-size: 14px;
 }
 
 .header-language-menu-item > svg {
@@ -49,4 +50,28 @@
     linear-gradient(
       to right, #000000 0%, #222222 30%
     ) 0 0 100% 0;
+}
+
+@media (max-width: 575px) {
+  .header-language-menu-item {
+    width: 70px;
+    padding: 9px 16px;
+    font-size: 7px;
+  }
+
+  .header {
+    margin-right: -8px;
+    margin-left: 13px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-language-menu-item {
+    width: 70px;
+    padding: 7px 16px;
+  }
+
+  .header {
+    margin-right: -8px;
+  }
 }

@@ -7,6 +7,7 @@
   padding: 15px 25px;
   align-items: center;
   border-radius: 15px;
+  font-size: 16px;
   cursor: pointer;
 }
 
@@ -14,4 +15,27 @@
   color: #FFFFFF;
   font-family: 'Inconsolata';
   padding-right: 20px;
+  white-space: nowrap;
+}
+
+.download-button-icon {
+  width: 30px;
+}
+
+@media (max-width: 450px) {
+  .download-button-container {
+    margin-top: 414px;
+    font-size: 12px;
+    margin-right: 13px;
+  }
+
+  .download-button-icon {
+    width: 20px;
+  }
+}
+
+@media (max-width: 410px) {
+  .download-button-container {
+    margin-top: 340px;
+  }
 }

@@ -25,3 +25,13 @@
 .main-card-image {
     margin-top: 15px;
 }
+
+@media (max-width: 575px) {
+    .main-card-name {
+        font-size: 20px;
+    }
+
+    .main-card-description {
+        font-size: 9px;
+    }
+}
